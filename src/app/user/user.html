@@ -1,18 +1,18 @@
 <div class="mt-50 ml-100">
     <h1 class="ml-50 mb-3">Table</h1>
-    <table class="text-center border-2">
+    <table class="text-center border">
     <thead>
         <tr >
-            <td class="border-x-2">Name</td>
-            <td class="border-x-2">Mobile</td>
-            <td class="border-x-2">Email</td>
+            <td class="border">Name</td>
+            <td class="border">Mobile</td>
+            <td class="border">Email</td>
         </tr>
     </thead>
     <tbody class="border" >
         <tr *ngFor="let u of user" class="border">
-            <td class="p-2 border-x-2 ">{{u.name}}</td>
-            <td class="p-2 border-x-2">{{u.mobile}}</td>
-            <td class="p-2 border-x-2">{{u.email}}</td>
+            <td class="p-2 border ">{{u.name}}</td>
+            <td class="p-2 border">{{u.mobile}}</td>
+            <td class="p-2 border">{{u.email}}</td>
         </tr>
     </tbody>
 </table>
